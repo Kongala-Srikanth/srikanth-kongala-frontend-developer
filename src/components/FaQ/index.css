@@ -1,0 +1,82 @@
+.faq-section{
+    background-color: #031114;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 55px;
+    gap: 35px;
+    
+}
+
+.faq-heading{
+    /* Frequently Asked Questions */
+
+    height: 88px;
+
+    /* qubic.org/Semantic/Heading 2 */
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 44px;
+    /* or 122% */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.72px;
+
+    /* qubic.org/White */
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.plus-icon{
+    /* Container */
+
+
+    width: 14px;
+    height: 14px;
+
+    /* Inside auto layout */
+    flex: none;
+    flex-grow: 0;
+    z-index: 1;
+
+}
+
+.faq-question{
+    /* What is EthAi? */
+
+    height: 24px;
+
+    /* qubic.org/Space Grotesk/Regular 16 */
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    z-index: 0;
+
+}
+
+.each-faq{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}

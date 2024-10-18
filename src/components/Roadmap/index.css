@@ -1,0 +1,145 @@
+.roadmap-section{
+    background-color: #031114;
+    margin-top: 100px;
+    margin-left: 15px;
+}
+
+.roadmap-main-heading{
+    /* Roadmap */
+
+    height: 44px;
+
+    /* qubic.org/Semantic/Heading 2 */
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 44px;
+    /* identical to box height, or 110% */
+
+    text-align: center;
+    letter-spacing: -0.8px;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.phase{
+    /* Background */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 12px;
+
+    width: 71px;
+    height: 28px;
+
+    background: #F7F7F7;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.roadmap-heading{
+    /* Kicking Off */
+
+    height: 40px;
+
+    /* qubic.org/Semantic/Heading 1 */
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 40px;
+    /* identical to box height, or 111% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.72px;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.roadmap-points{
+    /* Launch of EthAi: Officially */
+
+    height: 26px;
+
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.1px;
+
+    color: #EFEFE8;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.roadmap-each-point-container{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.tick-img{
+    height: 25px;
+}
+
+.roadmap-img{
+        /* image */
+
+    width: 350px;
+    height: 350px;
+    right: 0px;
+    top: calc(50% - 350px/2 + 0px);
+
+    background: linear-gradient(270deg, rgba(0, 22, 29, 0) 82.85%, #00161D 100%), linear-gradient(180deg, rgba(0, 22, 29, 0) 81.47%, #00161D 100%), linear-gradient(180deg, #00161D 0%, rgba(0, 22, 29, 0) 37.69%);
+
+}
+
+.roadmap-card{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+
+@media (min-width: 768px){
+    .order-2{
+        order: 1;
+    }
+
+}
+

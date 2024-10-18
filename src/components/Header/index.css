@@ -1,0 +1,220 @@
+.sm-header{
+    /* Nav */
+    
+    /* Auto layout */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    isolation: isolate;
+    margin-top: 15px;
+    height: 54px;
+    width: 90%;
+
+    /* qubic.org/Firefly 70% */
+    background: rgba(12, 43, 47, 0.7);
+    backdrop-filter: blur(5px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 48px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    padding: 0px 15px;
+
+    position: absolute;
+    top: 15px;
+
+}
+
+.sm-logo{
+
+    width: 24px;
+    height: 24px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.sm-menu-btn{
+    /* Container */
+
+    width: 34px;
+    height: 34px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    color: #ffffff;
+}
+
+.hide-btn{
+    background-color: transparent;
+    border-width: 0px;
+    outline: none;
+    cursor: pointer;
+    padding: 0px;
+    margin: 0px;
+}
+
+@media (min-width: 768px){
+    .sm-header{
+        display: none;
+    }
+
+    .md-header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 15px;
+        padding: 0px 15px;
+        position: absolute;
+        top: 15px;
+    }
+
+    .md-logo{
+        /* Group 20 */
+
+        width: 36px;
+        height: 36px;
+
+
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+
+    }
+
+    .md-logo-container{
+        /* Frame 43094 */
+
+        /* Auto layout */
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 5px;
+
+
+        width: 202px;
+        height: 36px;
+
+
+    }
+
+    .md-logo-text{
+        /* EthAi */
+
+        width: 62px;
+        height: 16px;
+
+        font-family: 'Play';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.032px;
+
+        color: #FFFFFF;
+
+
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        color: #FFFFFF;
+
+    }
+
+    .md-login-btn-container{
+        display: flex;
+        gap: 25px;
+    }
+
+    .md-login-btn{
+        background-color: transparent;
+        color: #FFFFFF;
+        border-width: 0px;
+        outline: none;
+        cursor: pointer;
+    }
+
+    .md-whitepaper-btn{
+        /* Link */
+
+        /* Auto layout */
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 12px 24px;
+
+        width: 139.71px;
+        height: 44px;
+
+        background: #CDFCFF;
+        box-shadow: 0px 1px 4px rgba(55, 197, 229, 0.12), 0px 4px 6px rgba(55, 197, 229, 0.12), 0px 4px 12px rgba(55, 197, 229, 0.12), 0px 6px 20px rgba(55, 197, 229, 0.12), inset 0px -8px 16px -4px rgba(55, 197, 229, 0.6), inset 0px 0px 4px 2px rgba(255, 255, 255, 0.12), inset 0px 1px 1px #4CDDFD, inset 0px 0px 1px 1px #4CDDFD;
+        border-radius: 12px;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+
+    }
+
+    .nav-items{
+        /* Roadmap */
+
+        /* qubic.org/Space Grotesk/Medium 16 */
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 32px;
+        /* identical to box height, or 200% */
+        letter-spacing: -0.16px;
+
+        color: rgba(176, 250, 255, 0.7);
+        background-color: transparent;
+        outline: none;
+        cursor: pointer;
+        border-width: 0px;
+        
+
+    }
+
+    .md-nav-items-container{
+        /* Nav */
+
+        width: 653px;
+        height: 64px;
+
+        background: rgba(12, 43, 47, 0.7);
+        backdrop-filter: blur(5px);
+        /* Note: backdrop-filter has minimal browser support */
+        border-radius: 48px;
+
+        /* Inside auto layout */
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+}
+
+@media (max-width: 767px){
+    .md-header{
+        display: none;
+    }
+}
