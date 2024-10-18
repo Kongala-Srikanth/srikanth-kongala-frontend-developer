@@ -1,5 +1,3 @@
-# srikanth-kongala-frontend-developer
-
 # EthAi - AI-Powered dApp for Crypto Trading
 
 **EthAi** is an innovative platform designed to make crypto trading easier and more intuitive. It leverages AI-powered tools to provide users with the latest market trends, track top traders’ movements, and empower them with data-driven insights to make smarter decisions. The dApp offers a seamless and personalized experience for both novice and experienced traders.
